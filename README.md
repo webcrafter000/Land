@@ -41,13 +41,3 @@ docker compose up -d --build
 ```
 Frontend: http://localhost:5173
 Backend: http://localhost:8000
-
-## What I'd do differently with more time
-- Persist manual carve-outs/restores per parcel instead of losing them
-  on refresh.
-- Debounce recalculation on rapid drawing instead of firing a request
-  per vertex.
-- Simplify very large/complex geometries for map display at scale.
-- Currently tested primarily on Travis County parcels — would want more
-  edge-case testing against messier/larger real-world geometries before
-  calling this production-ready.
