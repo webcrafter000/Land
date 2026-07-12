@@ -21,6 +21,16 @@ function in `area.py`.
   locally from data.tnris.org, not committed to the repo).
 - **Wetlands:** USFWS National Wetlands Inventory geopackage for Texas,
   downloaded locally from fws.gov.
+  
+Parcels A Texas county from TNRIS —
+
+https://data.tnris.org (pick a county with a
+manageable parcel count).
+
+Wetlands USFWS National Wetlands Inventory —
+
+https://www.fws.gov/program/national-
+wetlands-inventory/wetlands-data
 
 Both were downloaded and loaded into a local PostGIS instance while
 testing — they're not bundled with the repo since they're large and
