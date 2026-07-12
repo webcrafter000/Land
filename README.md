@@ -5,6 +5,11 @@ floodplain, transmission easements, building setbacks) and works out how
 much of it is actually buildable — with a live map you can carve out or
 restore area on by hand.
 
+Testing screenshots:
+<img width="1661" height="867" alt="Screenshot 2026-07-12 123111" src="https://github.com/user-attachments/assets/c2a99083-a5c8-48f2-9d09-59565617339e" />
+
+<img width="1762" height="773" alt="Screenshot 2026-07-12 124839" src="https://github.com/user-attachments/assets/394cbcbf-dbb9-4f8d-a88f-dc786c64b5eb" />
+
 ## Stack
 - **Backend:** FastAPI + PostGIS + Shapely for the geometry math
 - **Frontend:** React + MapLibre GL + Mapbox Draw for the interactive map
